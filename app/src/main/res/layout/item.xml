@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_gravity="center"
     android:layout_width="250dp"
-    android:layout_height="170dp">
+    android:layout_height="250dp">
 
     <TextView
         android:id="@+id/helloText"
-        android:textSize="36sp"
-        android:textColor="@android:color/white"
-        android:background="#E339"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:background="#FCF0AD"
         android:gravity="center"
-        tools:text="@string/hello_world"
+        tools:text="MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
@@ -24,7 +24,7 @@
         android:text="0"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:textColor="#FFFFFF" />
+        android:textColor="#000" />
 
     <TextView
         android:id="@+id/item_swipe_right_indicator"
@@ -36,6 +36,6 @@
         android:text="0"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:textColor="#FFFFFF" />
+        android:textColor="#000" />
 
 </FrameLayout>
